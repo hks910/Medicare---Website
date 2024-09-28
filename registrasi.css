@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .register-container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-registrasi {
+    padding-inline: 2px;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+  }
+  form input {
+    width: 300px;
+    border: none;
+    border-bottom: #000 1px solid;
+    padding-bottom: 5px;
+    outline: none;
+  }
+  .nama::placeholder {
+    font-size: 12px;
+    color: #252525;
+    text-transform: capitalize;
+  }
+  .email::placeholder {
+    font-size: 12px;
+    color: #252525;
+    text-transform: capitalize;
+  }
+  .jenis-kelamin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .input-jenis-kelamin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .judul h4 {
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: capitalize;
+  }
+  .input-jenis-kelamin input {
+    width: 10px;
+  }
+  .male {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+  .male label {
+    color: #252525;
+    font-size: 12px;
+  }
+  
+  .female {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+  .female label {
+    color: #252525;
+    font-size: 12px;
+  }
+  
+  .kota {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+  }
+  .kota label {
+    font-size: 12px;
+    color: #252525;
+    text-transform: capitalize;
+  }
+  .kota select {
+    width: 100%;
+    padding: 8px;
+  }
+  .password {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .password label {
+    color: #252525;
+    font-size: 12px;
+  }
+  .register-tbl {
+    padding: 8px 12px;
+    background-color: #38abab;
+    color: white;
+    border: none;
+  }
+  @media only screen and (max-width: 600px) {
+    form {
+      width: 100%;
+    }
+    form input {
+      width: 296px;
+    }
+  }
+  
